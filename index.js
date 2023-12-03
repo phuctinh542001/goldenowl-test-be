@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import database from './config/database/index.js';
-import routes from './routes/index.js';
+import database from './src/config/database/index.js';
+import routes from './src/routes/index.js';
 
 // Connect to MongoDB
 database.connect();
