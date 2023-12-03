@@ -5,7 +5,7 @@ const routes = (app) => {
     res.send('Hello, this is your Express API!');
   });
 
-  app.use('/products', productsRoute);
+  app.use('/api/products', productsRoute);
 };
 
 export default routes;

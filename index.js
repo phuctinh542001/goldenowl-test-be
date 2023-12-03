@@ -7,7 +7,7 @@ import routes from './src/routes/index.js';
 database.connect();
 
 const app = express();
-const PORT = 3000;
+const PORT = 5050;
 
 // Middleware to parse JSON
 app.use(express.json());
